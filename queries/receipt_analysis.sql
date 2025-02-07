@@ -8,3 +8,4 @@ JOIN receipt_items ri ON r.receipt_id = ri.receipt_id
 WHERE r.receipt_status IN ('Accepted', 'Rejected')
 GROUP BY r.receipt_status
 ORDER BY total_items_purchased DESC;
+
