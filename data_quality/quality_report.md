@@ -1,6 +1,6 @@
 # Fetch Rewards Data Quality Analysis
 ## Overview
-### A data quality evaluation of the Fetch Rewards dataset identified several key issues that could impact data integrity, analytics, and reporting. These issues fall into four primary categories: missing values, incorrect data types, duplicate records, and inconsistencies in categorical values. The following is a structured breakdown of findings across the receipts, users, and brands datasets.
+A data quality evaluation of the Fetch Rewards dataset identified several key issues that could impact data integrity, analytics, and reporting. These issues fall into four primary categories: missing values, incorrect data types, duplicate records, and inconsistencies in categorical values. The following is a structured breakdown of findings across the receipts, users, and brands datasets.
 
 ## 1. Receipts Data Issues
 ### Missing Values
@@ -42,4 +42,4 @@ Date fields (createDate, dateScanned, finishedDate, modifyDate, pointsAwardedDat
 - CPG (Consumer Packaged Goods) field is stored as a dictionary rather than an ID or string reference, which affects relational database design and efficient querying.
 
 ## Conclusion
-### The dataset contains several structural issues that impact data reliability and usability. Missing values, particularly in key fields such as purchase amounts, receipt details, and timestamps, reduce the accuracy of analytics and reporting. Inconsistent data types introduce processing challenges, while duplicate records and misclassified categorical values could lead to erroneous insights. Standardizing these elements will be critical to improving data integrity and ensuring consistency across Fetch Rewards' system.
+The dataset contains several structural issues that impact data reliability and usability. Missing values, particularly in key fields such as purchase amounts, receipt details, and timestamps, reduce the accuracy of analytics and reporting. Inconsistent data types introduce processing challenges, while duplicate records and misclassified categorical values could lead to erroneous insights. Standardizing these elements will be critical to improving data integrity and ensuring consistency across Fetch Rewards' system.
