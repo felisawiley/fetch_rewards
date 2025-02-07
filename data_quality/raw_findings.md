@@ -15,8 +15,8 @@ Invalid Data Types Found:
 {'receipt_id': array([<class 'dict'>], dtype=object), 'bonusPointsEarned': array([<class 'float'>], dtype=object), 'createDate': array([<class 'dict'>], dtype=object), 'dateScanned': array([<class 'dict'>], dtype=object), 'finishedDate': array([<class 'dict'>], dtype=object), 'modifyDate': array([<class 'dict'>], dtype=object), 'pointsAwardedDate': array([<class 'dict'>], dtype=object), 'pointsEarned': array([<class 'str'>], dtype=object), 'purchaseDate': array([<class 'dict'>], dtype=object), 'purchasedItemCount': array([<class 'float'>], dtype=object), 'totalSpent': array([<class 'str'>], dtype=object)}
 
 --- Checking users ---
-Skipping invalid JSON line in data/users.json.gz
-Skipping invalid JSON line in data/users.json.gz
+Skipping invalid JSON line in /Users/felisa/Desktop/Business Ideas/fetch-analytics/data/users.json.gz
+Skipping invalid JSON line in /Users/felisa/Desktop/Business Ideas/fetch-analytics/data/users.json.gz
 Columns found in users: ['_id', 'active', 'createdDate', 'lastLogin', 'role', 'signUpSource', 'state']
 Missing Values Detected:
 lastLogin       62

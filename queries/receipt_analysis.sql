@@ -1,4 +1,5 @@
---2. When considering total number of items purchased from receipts with rewardsReceiptStatus of Accepted or Rejected, which is greater?
+--2. When considering total number of items purchased from 
+--receipts with rewardsReceiptStatus of Accepted or Rejected, which is greater?
 
 SELECT 
     r.receipt_status,

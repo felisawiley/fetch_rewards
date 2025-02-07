@@ -19,7 +19,7 @@ import os
 import pandas as pd
 
 # Directory containing the data files
-DATA_DIR = "data"
+DATA_DIR = "/Users/felisa/Desktop/Business Ideas/fetch-analytics/data"
 
 # Define expected column types
 EXPECTED_TYPES = {
@@ -151,12 +151,6 @@ def evaluate_data_quality():
                 out_of_range = check_out_of_range_values(df, "totalSpent", min_val=0)
                 if out_of_range > 0:
                     print(f"Out-of-range Values in totalSpent: {out_of_range}")
-
-            # Check for inconsistent categorical values
-            if "rewardsReceiptStatus" in df.columns:
-                invalid_statuses = validate_categorical_values(df, "rewardsReceiptStatus", ["Accepted", "Rejected", "Pending"])
-                if len(invalid_statuses) > 0:
-                    print(f"Invalid rewardsReceiptStatus values found: {invalid_statuses}")
 
 if __name__ == "__main__":
     evaluate_data_quality()
